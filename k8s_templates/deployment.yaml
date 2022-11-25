@@ -27,6 +27,8 @@ spec:
       containers:
       - name:  MYAPP
         image:  MYAPP:latest
+        securityContext:
+          allowPrivilegeEscalation: false
         resources:
           requests:
             cpu: 100m
