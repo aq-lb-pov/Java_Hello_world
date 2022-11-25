@@ -70,9 +70,11 @@ timestamps {
                         --aqua-key ${AQUA_KEY} \
                         --aqua-secret ${AQUA_SECRET} \
                         --access-token ${GITHUB_TOKEN} \
-            --output sbom.json \
+                        --output sbom.json \
                         --artifact-path ./src \
-                        cat sbom.json
+                  pwd
+                  ls
+                  cat sbom.json
                 '''
             }
         }
