@@ -71,7 +71,8 @@ timestamps {
                         --aqua-secret ${AQUA_SECRET} \
                         --access-token ${GITHUB_TOKEN} \
             --output sbom.json \
-                        --artifact-path ./src
+                        --artifact-path ./src \
+                        cat sbom.json
                 '''
             }
         }
