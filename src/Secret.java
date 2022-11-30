@@ -1,6 +1,6 @@
 public class Secret {
-    public Password = "1234"
-    public User = "test_user"
+    public String Password = "1234";
+    public String User = "test_user";
 
     public String getPassword (){
         return Password;
