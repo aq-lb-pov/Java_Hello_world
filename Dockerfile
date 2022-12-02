@@ -8,4 +8,5 @@ COPY ["package.json", "package-lock.json*", "./"]
 RUN npm install --production
 
 COPY . .
+USER node
 CMD [ "node", "server.js" ]
